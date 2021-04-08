@@ -1,0 +1,26 @@
+body
+{   background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(download.jpg);
+    background-size:cover;
+    background-position: center;
+    font-family:"Times New Roman", Times, serif;
+    font-weight:900;
+}
+
+.login-box
+{   max-width: 900px;
+    float: none;
+    margin: 250px auto;
+    background: rgba(211,211,211,0.5);
+    padding: 30 px;
+}
+
+.form-control
+{   background-color: white !important;
+}
+
+.center-div
+{    position:absolute;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+}
